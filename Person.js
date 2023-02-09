@@ -9,7 +9,8 @@ class Person {
             // 2a. Bags should contain/reference a data type for storing more than one bag object.
 
     // Include an addBag method
-    addbag() {
+    addbag(bag) {
+        this.bags.push(bag)
         console.log("Adds a bag")
     }
 }   
