@@ -1,10 +1,10 @@
 class Bag {
     // Include constructor Method with the following property:
     constructor(weight){
-    this.weight = weight 
         if (!weight){
             throw new Error("Bag should have a weight")
         }
+        this.weight = weight 
         
     }
         // 1. Weight
